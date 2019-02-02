@@ -1,0 +1,38 @@
+PODS:
+  - FileBrowser (1.0.0)
+  - ImageSlideshow (1.7.0):
+    - ImageSlideshow/Core (= 1.7.0)
+  - ImageSlideshow/Core (1.7.0)
+  - iOSDropDown (0.2.7)
+  - SwiftGifOrigin (1.6.1)
+  - SwiftSoup (1.7.4)
+  - Toast-Swift (4.0.1)
+
+DEPENDENCIES:
+  - FileBrowser (~> 1.0)
+  - ImageSlideshow (~> 1.6)
+  - iOSDropDown
+  - SwiftGifOrigin (~> 1.6.1)
+  - SwiftSoup
+  - Toast-Swift (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FileBrowser
+    - ImageSlideshow
+    - iOSDropDown
+    - SwiftGifOrigin
+    - SwiftSoup
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  Toast-Swift: e42a638589a2f95036b4bb7626cfbdde7daf0393
+
+PODFILE CHECKSUM: 2879badd1fd12ef416e5dc6ca86ec9c792ec9f89
+
+COCOAPODS: 1.5.3

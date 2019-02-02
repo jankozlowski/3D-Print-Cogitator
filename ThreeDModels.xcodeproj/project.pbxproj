@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421F8DCE21EFD9BC00573E3C /* FileVisualizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421F8DCD21EFD9BC00573E3C /* FileVisualizerViewController.swift */; };
+		421F8DD321EFE28700573E3C /* VisualizerTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421F8DD221EFE28700573E3C /* VisualizerTabBarController.swift */; };
+		421F8DD521EFE3F600573E3C /* ARVisualizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421F8DD421EFE3F600573E3C /* ARVisualizerViewController.swift */; };
+		42217EA921E009080051D5F8 /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42217EA821E009080051D5F8 /* Creator.swift */; };
+		42227BD121F8E4BF00AFDDD2 /* CostResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42227BD021F8E4BF00AFDDD2 /* CostResultsViewController.swift */; };
+		4234DFF0219F79FF00D3F19C /* SingleViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4234DFEE219F79FF00D3F19C /* SingleViewCell.swift */; };
+		4234DFF1219F79FF00D3F19C /* SingleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4234DFEF219F79FF00D3F19C /* SingleViewCell.xib */; };
+		423926EA21DE9612005E8AED /* ModelSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423926E921DE9612005E8AED /* ModelSizes.swift */; };
+		423CC6C121EB7DA40087FF5A /* MakesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CC6C021EB7DA40087FF5A /* MakesViewController.swift */; };
+		423CC6C521EB7EE00087FF5A /* SingleMakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CC6C421EB7EE00087FF5A /* SingleMakeCell.swift */; };
+		423CC6C921EB80430087FF5A /* ModelMake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CC6C821EB80430087FF5A /* ModelMake.swift */; };
+		423CC6CB21EBA11D0087FF5A /* ModelMakeSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423CC6CA21EBA11D0087FF5A /* ModelMakeSizes.swift */; };
+		4249D19321E7AD57004ED282 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249D19221E7AD57004ED282 /* CommentsViewController.swift */; };
+		4249D19521E7ADA3004ED282 /* SingleCommentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249D19421E7ADA3004ED282 /* SingleCommentViewCell.swift */; };
+		4249D19721E7B95D004ED282 /* ModelComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249D19621E7B95D004ED282 /* ModelComment.swift */; };
+		4249D19B21E7BB99004ED282 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249D19A21E7BB99004ED282 /* ModelUser.swift */; };
+		4253F26021E132EF000C45C1 /* gear.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4253F25F21E132EF000C45C1 /* gear.gif */; };
+		425AED6F21C704F6000EAE46 /* FullModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425AED6E21C704F6000EAE46 /* FullModel.swift */; };
+		4282B72021E3C34900036A04 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282B71F21E3C34900036A04 /* DownloadsViewController.swift */; };
+		4282B72321E3C4DF00036A04 /* SingleDownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4282B72121E3C4DF00036A04 /* SingleDownloadCell.swift */; };
+		4282B72421E3C4DF00036A04 /* SingleDownloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4282B72221E3C4DF00036A04 /* SingleDownloadCell.xib */; };
+		42839BEF21CAE781005A3E90 /* ModelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839BEE21CAE781005A3E90 /* ModelImage.swift */; };
+		42839BF121CAEA61005A3E90 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42839BF021CAEA61005A3E90 /* HelperFunctions.swift */; };
+		42C95B2D22060A5600FDBA75 /* gear2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 42C95B2C22060A5600FDBA75 /* gear2.gif */; };
+		42CBB05A21E260DA00B1292F /* ModelFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB05921E260DA00B1292F /* ModelFile.swift */; };
+		42CBB05C21E29A4D00B1292F /* ModelZipPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CBB05B21E29A4D00B1292F /* ModelZipPackage.swift */; };
+		42D04FA321A9A86F00991B69 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D04FA221A9A86F00991B69 /* Model.swift */; };
+		42D354BB21E2AD2500363B6D /* ModelTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D354BA21E2AD2500363B6D /* ModelTabBarController.swift */; };
+		42D6123121B8839400818092 /* SingleModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D6123021B8839400818092 /* SingleModelViewController.swift */; };
+		42E292CF219E19A300133694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292CE219E19A300133694 /* AppDelegate.swift */; };
+		42E292D1219E19A300133694 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292D0219E19A300133694 /* MainViewController.swift */; };
+		42E292D4219E19A300133694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E292D2219E19A300133694 /* Main.storyboard */; };
+		42E292D6219E19A900133694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E292D5219E19A900133694 /* Assets.xcassets */; };
+		42E292D9219E19A900133694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E292D7219E19A900133694 /* LaunchScreen.storyboard */; };
+		42E292E4219E19AA00133694 /* ThreeDModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292E3219E19AA00133694 /* ThreeDModelsTests.swift */; };
+		42E292EF219E19AA00133694 /* ThreeDModelsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292EE219E19AA00133694 /* ThreeDModelsUITests.swift */; };
+		42E292FD219E2B6700133694 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292FC219E2B6700133694 /* SearchViewController.swift */; };
+		42E292FF219E2BA100133694 /* CostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E292FE219E2BA100133694 /* CostViewController.swift */; };
+		42E9E27321A337A8004A9EEE /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E9E27221A337A8004A9EEE /* WebViewController.swift */; };
+		42E9E27621A35751004A9EEE /* HttpHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E9E27521A35751004A9EEE /* HttpHelper.swift */; };
+		42F6FF0A21EE95EA00C30AD3 /* ModelCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F6FF0921EE95EA00C30AD3 /* ModelCategory.swift */; };
+		9FA4ED383B0B99165970E357 /* Pods_ThreeDModels.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCEE686BB4A1420691B2417 /* Pods_ThreeDModels.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42E292E0219E19AA00133694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E292C3219E19A300133694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E292CA219E19A300133694;
+			remoteInfo = ThreeDModels;
+		};
+		42E292EB219E19AA00133694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E292C3219E19A300133694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E292CA219E19A300133694;
+			remoteInfo = ThreeDModels;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DE5F06AFA3C550FBA9FDF7D /* Pods-ThreeDModels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeDModels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeDModels/Pods-ThreeDModels.debug.xcconfig"; sourceTree = "<group>"; };
+		421F8DCD21EFD9BC00573E3C /* FileVisualizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileVisualizerViewController.swift; sourceTree = "<group>"; };
+		421F8DD221EFE28700573E3C /* VisualizerTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizerTabBarController.swift; sourceTree = "<group>"; };
+		421F8DD421EFE3F600573E3C /* ARVisualizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVisualizerViewController.swift; sourceTree = "<group>"; };
+		42217EA821E009080051D5F8 /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		42227BD021F8E4BF00AFDDD2 /* CostResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostResultsViewController.swift; sourceTree = "<group>"; };
+		4234DFEE219F79FF00D3F19C /* SingleViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewCell.swift; sourceTree = "<group>"; };
+		4234DFEF219F79FF00D3F19C /* SingleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleViewCell.xib; sourceTree = "<group>"; };
+		423926E921DE9612005E8AED /* ModelSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSizes.swift; sourceTree = "<group>"; };
+		423CC6C021EB7DA40087FF5A /* MakesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakesViewController.swift; sourceTree = "<group>"; };
+		423CC6C421EB7EE00087FF5A /* SingleMakeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMakeCell.swift; sourceTree = "<group>"; };
+		423CC6C821EB80430087FF5A /* ModelMake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMake.swift; sourceTree = "<group>"; };
+		423CC6CA21EBA11D0087FF5A /* ModelMakeSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMakeSizes.swift; sourceTree = "<group>"; };
+		4249D19221E7AD57004ED282 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		4249D19421E7ADA3004ED282 /* SingleCommentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCommentViewCell.swift; sourceTree = "<group>"; };
+		4249D19621E7B95D004ED282 /* ModelComment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelComment.swift; sourceTree = "<group>"; };
+		4249D19A21E7BB99004ED282 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		4253F25F21E132EF000C45C1 /* gear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gear.gif; sourceTree = "<group>"; };
+		425AED6E21C704F6000EAE46 /* FullModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullModel.swift; sourceTree = "<group>"; };
+		4282B71F21E3C34900036A04 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		4282B72121E3C4DF00036A04 /* SingleDownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDownloadCell.swift; sourceTree = "<group>"; };
+		4282B72221E3C4DF00036A04 /* SingleDownloadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleDownloadCell.xib; sourceTree = "<group>"; };
+		42839BEE21CAE781005A3E90 /* ModelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelImage.swift; sourceTree = "<group>"; };
+		42839BF021CAEA61005A3E90 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		42C95B2C22060A5600FDBA75 /* gear2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gear2.gif; path = "../../../../../../Volumes/NO NAME/iconclast/gear2.gif"; sourceTree = "<group>"; };
+		42CBB05921E260DA00B1292F /* ModelFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFile.swift; sourceTree = "<group>"; };
+		42CBB05B21E29A4D00B1292F /* ModelZipPackage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelZipPackage.swift; sourceTree = "<group>"; };
+		42D04FA221A9A86F00991B69 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		42D354BA21E2AD2500363B6D /* ModelTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTabBarController.swift; sourceTree = "<group>"; };
+		42D6123021B8839400818092 /* SingleModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleModelViewController.swift; sourceTree = "<group>"; };
+		42E292CB219E19A300133694 /* ThreeDModels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeDModels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E292CE219E19A300133694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42E292D0219E19A300133694 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		42E292D3219E19A300133694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42E292D5219E19A900133694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42E292D8219E19A900133694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42E292DA219E19A900133694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E292DF219E19AA00133694 /* ThreeDModelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDModelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E292E3219E19AA00133694 /* ThreeDModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDModelsTests.swift; sourceTree = "<group>"; };
+		42E292E5219E19AA00133694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E292EA219E19AA00133694 /* ThreeDModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeDModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E292EE219E19AA00133694 /* ThreeDModelsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDModelsUITests.swift; sourceTree = "<group>"; };
+		42E292F0219E19AA00133694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E292FC219E2B6700133694 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		42E292FE219E2BA100133694 /* CostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostViewController.swift; sourceTree = "<group>"; };
+		42E9E27221A337A8004A9EEE /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		42E9E27521A35751004A9EEE /* HttpHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHelper.swift; sourceTree = "<group>"; };
+		42F6FF0921EE95EA00C30AD3 /* ModelCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCategory.swift; sourceTree = "<group>"; };
+		B8257CA924AA48D919A5E80C /* Pods-ThreeDModels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeDModels.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeDModels/Pods-ThreeDModels.release.xcconfig"; sourceTree = "<group>"; };
+		BDCEE686BB4A1420691B2417 /* Pods_ThreeDModels.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeDModels.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E292C8219E19A300133694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA4ED383B0B99165970E357 /* Pods_ThreeDModels.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292DC219E19AA00133694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292E7219E19AA00133694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8C7C1DDA528BF927DB22E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE5F06AFA3C550FBA9FDF7D /* Pods-ThreeDModels.debug.xcconfig */,
+				B8257CA924AA48D919A5E80C /* Pods-ThreeDModels.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BD0F632A8EDBDBE25B46764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDCEE686BB4A1420691B2417 /* Pods_ThreeDModels.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		423CC6C221EB7DB20087FF5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42E292D0219E19A300133694 /* MainViewController.swift */,
+				42E292FC219E2B6700133694 /* SearchViewController.swift */,
+				42D6123021B8839400818092 /* SingleModelViewController.swift */,
+				42E292FE219E2BA100133694 /* CostViewController.swift */,
+				42E9E27221A337A8004A9EEE /* WebViewController.swift */,
+				4282B71F21E3C34900036A04 /* DownloadsViewController.swift */,
+				4249D19221E7AD57004ED282 /* CommentsViewController.swift */,
+				423CC6C021EB7DA40087FF5A /* MakesViewController.swift */,
+				421F8DCD21EFD9BC00573E3C /* FileVisualizerViewController.swift */,
+				421F8DD421EFE3F600573E3C /* ARVisualizerViewController.swift */,
+				42D354BA21E2AD2500363B6D /* ModelTabBarController.swift */,
+				421F8DD221EFE28700573E3C /* VisualizerTabBarController.swift */,
+				42227BD021F8E4BF00AFDDD2 /* CostResultsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		423CC6C321EB7EA90087FF5A /* SingleViews */ = {
+			isa = PBXGroup;
+			children = (
+				4234DFEE219F79FF00D3F19C /* SingleViewCell.swift */,
+				4234DFEF219F79FF00D3F19C /* SingleViewCell.xib */,
+				4249D19421E7ADA3004ED282 /* SingleCommentViewCell.swift */,
+				4282B72121E3C4DF00036A04 /* SingleDownloadCell.swift */,
+				4282B72221E3C4DF00036A04 /* SingleDownloadCell.xib */,
+				423CC6C421EB7EE00087FF5A /* SingleMakeCell.swift */,
+			);
+			path = SingleViews;
+			sourceTree = "<group>";
+		};
+		42D04FA121A9A84300991B69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42D04FA221A9A86F00991B69 /* Model.swift */,
+				425AED6E21C704F6000EAE46 /* FullModel.swift */,
+				42839BEE21CAE781005A3E90 /* ModelImage.swift */,
+				423926E921DE9612005E8AED /* ModelSizes.swift */,
+				42217EA821E009080051D5F8 /* Creator.swift */,
+				42CBB05921E260DA00B1292F /* ModelFile.swift */,
+				42CBB05B21E29A4D00B1292F /* ModelZipPackage.swift */,
+				4249D19621E7B95D004ED282 /* ModelComment.swift */,
+				4249D19A21E7BB99004ED282 /* ModelUser.swift */,
+				423CC6C821EB80430087FF5A /* ModelMake.swift */,
+				423CC6CA21EBA11D0087FF5A /* ModelMakeSizes.swift */,
+				42F6FF0921EE95EA00C30AD3 /* ModelCategory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42E292C2219E19A300133694 = {
+			isa = PBXGroup;
+			children = (
+				42E292CD219E19A300133694 /* ThreeDModels */,
+				42E292E2219E19AA00133694 /* ThreeDModelsTests */,
+				42E292ED219E19AA00133694 /* ThreeDModelsUITests */,
+				42E292CC219E19A300133694 /* Products */,
+				2B8C7C1DDA528BF927DB22E1 /* Pods */,
+				3BD0F632A8EDBDBE25B46764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42E292CC219E19A300133694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E292CB219E19A300133694 /* ThreeDModels.app */,
+				42E292DF219E19AA00133694 /* ThreeDModelsTests.xctest */,
+				42E292EA219E19AA00133694 /* ThreeDModelsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E292CD219E19A300133694 /* ThreeDModels */ = {
+			isa = PBXGroup;
+			children = (
+				423CC6C321EB7EA90087FF5A /* SingleViews */,
+				423CC6C221EB7DB20087FF5A /* ViewController */,
+				42D04FA121A9A84300991B69 /* Model */,
+				42E9E27421A35728004A9EEE /* Helpers */,
+				42E292CE219E19A300133694 /* AppDelegate.swift */,
+				42E292D2219E19A300133694 /* Main.storyboard */,
+				42E292D5219E19A900133694 /* Assets.xcassets */,
+				42E292D7219E19A900133694 /* LaunchScreen.storyboard */,
+				42E292DA219E19A900133694 /* Info.plist */,
+				42C95B2C22060A5600FDBA75 /* gear2.gif */,
+				4253F25F21E132EF000C45C1 /* gear.gif */,
+			);
+			path = ThreeDModels;
+			sourceTree = "<group>";
+		};
+		42E292E2219E19AA00133694 /* ThreeDModelsTests */ = {
+			isa = PBXGroup;
+			children = (
+				42E292E3219E19AA00133694 /* ThreeDModelsTests.swift */,
+				42E292E5219E19AA00133694 /* Info.plist */,
+			);
+			path = ThreeDModelsTests;
+			sourceTree = "<group>";
+		};
+		42E292ED219E19AA00133694 /* ThreeDModelsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42E292EE219E19AA00133694 /* ThreeDModelsUITests.swift */,
+				42E292F0219E19AA00133694 /* Info.plist */,
+			);
+			path = ThreeDModelsUITests;
+			sourceTree = "<group>";
+		};
+		42E9E27421A35728004A9EEE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				42E9E27521A35751004A9EEE /* HttpHelper.swift */,
+				42839BF021CAEA61005A3E90 /* HelperFunctions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E292CA219E19A300133694 /* ThreeDModels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E292F3219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModels" */;
+			buildPhases = (
+				C45B6AF5559F5AC6B6C3ACF9 /* [CP] Check Pods Manifest.lock */,
+				42E292C7219E19A300133694 /* Sources */,
+				42E292C8219E19A300133694 /* Frameworks */,
+				42E292C9219E19A300133694 /* Resources */,
+				F98D9372464E59EFB1910FB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeDModels;
+			productName = ThreeDModels;
+			productReference = 42E292CB219E19A300133694 /* ThreeDModels.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42E292DE219E19AA00133694 /* ThreeDModelsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E292F6219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModelsTests" */;
+			buildPhases = (
+				42E292DB219E19AA00133694 /* Sources */,
+				42E292DC219E19AA00133694 /* Frameworks */,
+				42E292DD219E19AA00133694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E292E1219E19AA00133694 /* PBXTargetDependency */,
+			);
+			name = ThreeDModelsTests;
+			productName = ThreeDModelsTests;
+			productReference = 42E292DF219E19AA00133694 /* ThreeDModelsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42E292E9219E19AA00133694 /* ThreeDModelsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E292F9219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModelsUITests" */;
+			buildPhases = (
+				42E292E6219E19AA00133694 /* Sources */,
+				42E292E7219E19AA00133694 /* Frameworks */,
+				42E292E8219E19AA00133694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E292EC219E19AA00133694 /* PBXTargetDependency */,
+			);
+			name = ThreeDModelsUITests;
+			productName = ThreeDModelsUITests;
+			productReference = 42E292EA219E19AA00133694 /* ThreeDModelsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E292C3219E19A300133694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.binaryalchemist;
+				TargetAttributes = {
+					42E292CA219E19A300133694 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					42E292DE219E19AA00133694 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 42E292CA219E19A300133694;
+					};
+					42E292E9219E19AA00133694 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 42E292CA219E19A300133694;
+					};
+				};
+			};
+			buildConfigurationList = 42E292C6219E19A300133694 /* Build configuration list for PBXProject "ThreeDModels" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42E292C2219E19A300133694;
+			productRefGroup = 42E292CC219E19A300133694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E292CA219E19A300133694 /* ThreeDModels */,
+				42E292DE219E19AA00133694 /* ThreeDModelsTests */,
+				42E292E9219E19AA00133694 /* ThreeDModelsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E292C9219E19A300133694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4234DFF1219F79FF00D3F19C /* SingleViewCell.xib in Resources */,
+				4282B72421E3C4DF00036A04 /* SingleDownloadCell.xib in Resources */,
+				42E292D9219E19A900133694 /* LaunchScreen.storyboard in Resources */,
+				4253F26021E132EF000C45C1 /* gear.gif in Resources */,
+				42E292D6219E19A900133694 /* Assets.xcassets in Resources */,
+				42C95B2D22060A5600FDBA75 /* gear2.gif in Resources */,
+				42E292D4219E19A300133694 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292DD219E19AA00133694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292E8219E19AA00133694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C45B6AF5559F5AC6B6C3ACF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreeDModels-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F98D9372464E59EFB1910FB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ThreeDModels/Pods-ThreeDModels-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FileBrowser/FileBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeDModels/Pods-ThreeDModels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E292C7219E19A300133694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBB05C21E29A4D00B1292F /* ModelZipPackage.swift in Sources */,
+				42E292FD219E2B6700133694 /* SearchViewController.swift in Sources */,
+				42E9E27321A337A8004A9EEE /* WebViewController.swift in Sources */,
+				42D6123121B8839400818092 /* SingleModelViewController.swift in Sources */,
+				42E9E27621A35751004A9EEE /* HttpHelper.swift in Sources */,
+				42839BEF21CAE781005A3E90 /* ModelImage.swift in Sources */,
+				4249D19521E7ADA3004ED282 /* SingleCommentViewCell.swift in Sources */,
+				42227BD121F8E4BF00AFDDD2 /* CostResultsViewController.swift in Sources */,
+				423926EA21DE9612005E8AED /* ModelSizes.swift in Sources */,
+				421F8DCE21EFD9BC00573E3C /* FileVisualizerViewController.swift in Sources */,
+				423CC6C521EB7EE00087FF5A /* SingleMakeCell.swift in Sources */,
+				4249D19B21E7BB99004ED282 /* ModelUser.swift in Sources */,
+				42839BF121CAEA61005A3E90 /* HelperFunctions.swift in Sources */,
+				4249D19321E7AD57004ED282 /* CommentsViewController.swift in Sources */,
+				425AED6F21C704F6000EAE46 /* FullModel.swift in Sources */,
+				42E292D1219E19A300133694 /* MainViewController.swift in Sources */,
+				4282B72321E3C4DF00036A04 /* SingleDownloadCell.swift in Sources */,
+				4234DFF0219F79FF00D3F19C /* SingleViewCell.swift in Sources */,
+				42CBB05A21E260DA00B1292F /* ModelFile.swift in Sources */,
+				4249D19721E7B95D004ED282 /* ModelComment.swift in Sources */,
+				423CC6C121EB7DA40087FF5A /* MakesViewController.swift in Sources */,
+				421F8DD321EFE28700573E3C /* VisualizerTabBarController.swift in Sources */,
+				421F8DD521EFE3F600573E3C /* ARVisualizerViewController.swift in Sources */,
+				423CC6C921EB80430087FF5A /* ModelMake.swift in Sources */,
+				42E292CF219E19A300133694 /* AppDelegate.swift in Sources */,
+				42F6FF0A21EE95EA00C30AD3 /* ModelCategory.swift in Sources */,
+				423CC6CB21EBA11D0087FF5A /* ModelMakeSizes.swift in Sources */,
+				42E292FF219E2BA100133694 /* CostViewController.swift in Sources */,
+				4282B72021E3C34900036A04 /* DownloadsViewController.swift in Sources */,
+				42217EA921E009080051D5F8 /* Creator.swift in Sources */,
+				42D354BB21E2AD2500363B6D /* ModelTabBarController.swift in Sources */,
+				42D04FA321A9A86F00991B69 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292DB219E19AA00133694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E292E4219E19AA00133694 /* ThreeDModelsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E292E6219E19AA00133694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E292EF219E19AA00133694 /* ThreeDModelsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42E292E1219E19AA00133694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E292CA219E19A300133694 /* ThreeDModels */;
+			targetProxy = 42E292E0219E19AA00133694 /* PBXContainerItemProxy */;
+		};
+		42E292EC219E19AA00133694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E292CA219E19A300133694 /* ThreeDModels */;
+			targetProxy = 42E292EB219E19AA00133694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42E292D2219E19A300133694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E292D3219E19A300133694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42E292D7219E19A900133694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E292D8219E19A900133694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42E292F1219E19AA00133694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jankozlowsk@gmail.com (LH9N3V83AM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42E292F2219E19AA00133694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jankozlowsk@gmail.com (LH9N3V83AM)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E292F4219E19AB00133694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE5F06AFA3C550FBA9FDF7D /* Pods-ThreeDModels.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42E292F5219E19AB00133694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8257CA924AA48D919A5E80C /* Pods-ThreeDModels.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModels/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42E292F7219E19AB00133694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeDModels.app/ThreeDModels";
+			};
+			name = Debug;
+		};
+		42E292F8219E19AB00133694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModelsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModelsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreeDModels.app/ThreeDModels";
+			};
+			name = Release;
+		};
+		42E292FA219E19AB00133694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeDModels;
+			};
+			name = Debug;
+		};
+		42E292FB219E19AB00133694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X8A3C8ZPD4;
+				INFOPLIST_FILE = ThreeDModelsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.binaryalchemist.ThreeDModelsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreeDModels;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42E292C6219E19A300133694 /* Build configuration list for PBXProject "ThreeDModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E292F1219E19AA00133694 /* Debug */,
+				42E292F2219E19AA00133694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E292F3219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E292F4219E19AB00133694 /* Debug */,
+				42E292F5219E19AB00133694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E292F6219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModelsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E292F7219E19AB00133694 /* Debug */,
+				42E292F8219E19AB00133694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E292F9219E19AB00133694 /* Build configuration list for PBXNativeTarget "ThreeDModelsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E292FA219E19AB00133694 /* Debug */,
+				42E292FB219E19AB00133694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42E292C3219E19A300133694 /* Project object */;
+}
