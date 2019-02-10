@@ -8,41 +8,41 @@ iOS app for downloading stl images from thingiverse api and visualizing them in 
 <br /><br />
 
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-1.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-1.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-2.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-2.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-3.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-3.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-4.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-4.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-5.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-5.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-6.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-6.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-7.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-7.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-8.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-8.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-9.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-9.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-10.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-10.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-11.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-11.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-12.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-12.png" width="300" />
 </p>
 <p align="center">
-<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-13.png" width="400" />
+<img src="http://binaryalchemist.pl/wp-content/uploads/2019/02/3d-cogitator-13.png" width="300" />
 </p>
